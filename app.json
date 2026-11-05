@@ -7,7 +7,8 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rabeeha.otpverification"
     },
     "android": {
       "adaptiveIcon": {
@@ -15,10 +16,22 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.rabeeha.otpverification",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "expo-dev-client"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2a687a53-2d70-4abf-8bbe-cdd6a345bf81"
+      }
     }
   }
 }

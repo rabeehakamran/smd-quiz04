@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "915122296706",
+    "project_id": "smd-task04",
+    "storage_bucket": "smd-task04.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915122296706:android:9d45a90f60445a40c1a19b",
+        "android_client_info": {
+          "package_name": "com.rabeeha.otpverification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmR6ALbo2NEat-gtZrol9m3S2Ep49YJhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
